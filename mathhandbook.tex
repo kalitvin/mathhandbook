@@ -2,6 +2,31 @@
 \usepackage[T2A]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[russian]{babel}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry} 
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{indentfirst}
+
+%Колонтитулы
+\usepackage{lastpage} 
+\usepackage{fancybox,fancyhdr}
+\fancyhead[R]{Справочник формул по математике}
+\fancyhead[L]{Владимир Анатольевич Калитвин}
+\fancyhead[C]{}
+\fancyfoot[R]{Калитвин В.А. (kalitvin@gmail.com)}
+\fancyfoot[L]{Страница \thepage \; из \pageref{LastPage}}
+\fancyfoot[C]{}
+\pagestyle{fancy}
+%
+
+%Рамки
+\usepackage{framed}
+%
+
 \begin{document}
 \author{Калитвин В.А.\\
 kalitvin@gmail.com}
@@ -50,6 +75,10 @@ $$
 \sqrt{a^m}=(\sqrt{|a|})^m
 \end{array}
 $$
+
+\section{Тригонометрия}
+
+
 
 \section{Логарифмы}
 \textbf{Определение логарифма.} Логарифмом положительного числа $b$ по основанию $a\ (a>0, a\not=1 )$ называется показатель степени, в которую нужно возвести $a$, чтобы получить $b.$
