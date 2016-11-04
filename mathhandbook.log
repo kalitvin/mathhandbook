@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.6.28)  3 NOV 2016 14:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.6.28)  3 NOV 2016 20:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -768,21 +768,22 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-Overfull \hbox (0.45616pt too wide) in paragraph at lines 84--85
-[]\T2A/cmr/bx/n/12 ќпределение ло-га-риф-ма. \T2A/cmr/m/n/12 Ћо-га-риф-мом по-л
-о-жи-тель-но-го чис-ла $\OML/cmm/m/it/12 b$ \T2A/cmr/m/n/12 по ос-но-ва-нию $\O
-ML/cmm/m/it/12 a \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a >
- []
-
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 14.49998pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] [3] 
+[2]
+Overfull \hbox (0.45616pt too wide) in paragraph at lines 112--113
+[]\T2A/cmr/bx/n/12 ќпределение ло-га-риф-ма. \T2A/cmr/m/n/12 Ћо-га-риф-мом по-л
+о-жи-тель-но-го чис-ла $\OML/cmm/m/it/12 b$ \T2A/cmr/m/n/12 по ос-но-ва-нию $\O
+ML/cmm/m/it/12 a \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a >
+ []
+
+[3] [4] 
 AED: lastpage setting LastPage
-[4] (./mathhandbook.aux) ) 
+[5] (./mathhandbook.aux) ) 
 Here is how much of TeX's memory you used:
  4677 strings out of 494466
  58324 string characters out of 6172530
@@ -805,10 +806,10 @@ m/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on mathhandbook.pdf (4 pages, 152501 bytes).
+Output written on mathhandbook.pdf (5 pages, 159096 bytes).
 PDF statistics:
- 283 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
+ 293 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
