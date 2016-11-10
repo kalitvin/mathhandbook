@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.6.28)  10 NOV 2016 09:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.6.28)  10 NOV 2016 12:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -788,42 +788,42 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[2] [3] [4] [5] [6]
-Overfull \hbox (0.45616pt too wide) in paragraph at lines 329--330
+[2] [3] [4] [5] [6] [7]
+Overfull \hbox (0.45616pt too wide) in paragraph at lines 365--366
 []\T2A/cmr/bx/n/12 ќпределение ло-га-риф-ма. \T2A/cmr/m/n/12 Ћо-га-риф-мом по-л
 о-жи-тель-но-го чис-ла $\OML/cmm/m/it/12 b$ \T2A/cmr/m/n/12 по ос-но-ва-нию $\O
 ML/cmm/m/it/12 a \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a >
  []
 
-[7] [8] 
+[8] [9] 
 AED: lastpage setting LastPage
-[9] (./mathhandbook.aux) ) 
+[10] (./mathhandbook.aux) ) 
 Here is how much of TeX's memory you used:
  4777 strings out of 494466
  59716 string characters out of 6172530
- 140505 words of memory out of 5000000
+ 145507 words of memory out of 5000000
  7898 multiletter control sequences out of 15000+600000
  16562 words of font info for 50 fonts, out of 8000000 for 9000
  452 hyphenation exceptions out of 8191
- 38i,16n,43p,607b,222s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/kalitvin/.texmf-var/fonts/pk/ljfour/lh/lh-t2a
-/labx1440.600pk> </home/kalitvin/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200.
-600pk> </home/kalitvin/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1728.600pk> </h
-ome/kalitvin/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1200.600pk> </home/kalitv
-in/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1440.600pk> </home/kalitvin/.texmf-
-var/fonts/pk/ljfour/lh/lh-t2a/larm2074.600pk></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on mathhandbook.pdf (9 pages, 187359 bytes).
+ 38i,16n,43p,607b,279s stack positions out of 5000i,500n,10000p,200000b,80000s
+ </home/kalitvin/.texmf-var/fonts/pk/ljfour/lh/lh-t2
+a/labx1440.600pk> </home/kalitvin/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200
+.600pk> </home/kalitvin/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1728.600pk> </
+home/kalitvin/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1200.600pk> </home/kalit
+vin/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1440.600pk> </home/kalitvin/.texmf
+-var/fonts/pk/ljfour/lh/lh-t2a/larm2074.600pk></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on mathhandbook.pdf (10 pages, 195860 bytes).
 PDF statistics:
- 337 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
+ 344 PDF objects out of 1000 (max. 8388607)
+ 75 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
