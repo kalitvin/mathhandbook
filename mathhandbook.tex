@@ -1,8 +1,8 @@
-\documentclass[a4paper, 12pt]{article}
+\documentclass[a5paper, 10pt]{article}
 \usepackage[T2A]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[russian]{babel}
-\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry} 
+\usepackage[left=1.5cm,right=1.5cm,top=1.5cm,bottom=1.5cm]{geometry} 
 
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -30,6 +30,9 @@
 %Color
 \usepackage{color,colortbl}
 \definecolor{Gray}{gray}{0.9}
+
+%Graphicx path
+\graphicspath{ {img/} }
 
 \begin{document}
 \author{Калитвин В.А.\\
@@ -195,6 +198,15 @@ $$S=\frac{b_1}{1-q}, |q|<1$$
 
 \section{Тригонометрия}
 
+\textbf{Знаки тригонометрических функций по четвертям}
+
+\begin{center}
+\begin{tabular}{ccc}
+\includegraphics[width=0.25\linewidth]{img01.png} \ & \includegraphics[width=0.25\linewidth]{img02.png} \ & \includegraphics[width=0.25\linewidth]{img03.png} \ \\ 
+$\sin x$ & $\cos x$ & $\tg x, \ctg x$ \\ 
+\end{tabular} 
+\end{center}
+
 \textbf{Тригонометрические тождества}
 
 $$\sin^\alpha+\cos^2\alpha=1$$
@@ -301,7 +313,7 @@ $$\sin x\cos y=\frac{1}{2}\left( \sin (x-y)+\sin (x+y)\right)$$
 {\setlength{\extrarowheight}{5pt}
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
 \hline 
-Угол в градусах & $0^\circ$ & $30^\circ$ & $45^\circ$ & $60^\circ$ & $90^\circ$ & $180^\circ$ & $270^\circ$ & $360^\circ$ \\[5pt]
+Угол в градсах & $0^\circ$ & $30^\circ$ & $45^\circ$ & $60^\circ$ & $90^\circ$ & $180^\circ$ & $270^\circ$ & $360^\circ$ \\[5pt]
 \hline
 \rowcolor{Gray}
 Угол в радианах & 0 & $\frac{\pi}{6}$ & $\frac{\pi}{4}$ & $\frac{\pi}{3}$ & $\frac{\pi}{2}$ & $\pi$ & $\frac{3\pi}{2}$ & $2\pi$ \\ [5pt]
@@ -310,9 +322,9 @@ $\sin\alpha$ & 0 & $\frac{1}{2}$ & $\frac{\sqrt{2}}{2}$ & $\frac{\sqrt{3}}{2}$ &
 \hline 
 $\cos\alpha$ & 1 & $\frac{\sqrt{3}}{2}$ & $\frac{\sqrt{2}}{2}$ & $\frac{1}{2}$ & 0 & -1 & 0 & 1 \\ [5pt]
 \hline 
-$\tg\alpha$ & 0 & $\frac{\sqrt{3}}{3}$ & 1 & $\sqrt{3}$ & не сущ. & 0 & не сущ. & 0 \\ [5pt]
+$\tg\alpha$ & 0 & $\frac{\sqrt{3}}{3}$ & 1 & $\sqrt{3}$ & --- & 0 & --- & 0 \\ [5pt]
 \hline 
-$\ctg\alpha$ & не сущ. & $\sqrt{3}$ & 1 & $\frac{\sqrt{3}}{3}$ & 0 & не сущ. & 0 & не сущ. \\ [5pt]
+$\ctg\alpha$ & --- & $\sqrt{3}$ & 1 & $\frac{\sqrt{3}}{3}$ & 0 & --- & 0 & --- \\ [5pt]
 \hline 
 \end{tabular} 
 }

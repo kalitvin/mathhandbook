@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.6.28)  10 NOV 2016 12:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.6.28)  14 NOV 2016 08:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2014/05/01>
 Babel <3.9l> and hyphenation patterns for 11 languages loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -657,46 +657,46 @@ Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 (./mathhandbook.aux)
 \openout1 = `mathhandbook.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 37.
+LaTeX Font Info:    ... okay on input line 37.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
 * driver: pdftex
-* paper: a4paper
+* paper: a5paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(56.9055pt, 483.69687pt, 56.9055pt)
-* v-part:(T,H,B)=(56.9055pt, 731.23584pt, 56.9055pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=483.69687pt
-* \textheight=731.23584pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-52.36449pt
+* h-part:(L,W,R)=(42.67912pt, 335.74254pt, 42.67912pt)
+* v-part:(T,H,B)=(42.67912pt, 512.14963pt, 42.67912pt)
+* \paperwidth=421.10078pt
+* \paperheight=597.50787pt
+* \textwidth=335.74254pt
+* \textheight=512.14963pt
+* \oddsidemargin=-29.59087pt
+* \evensidemargin=-29.59087pt
+* \topmargin=-66.59087pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=12.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
-* \marginparwidth=35.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=3.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -769,61 +769,82 @@ Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             or
 (lastpage)             http://www.ctan.org/tex-archive/ 
 (lastpage)             install/macros/latex/contrib/pageslts.tds.zip
-(lastpage)             ! on input line 34.
-LaTeX Font Info:    Try loading font information for U+msa on input line 38.
+(lastpage)             ! on input line 37.
+LaTeX Font Info:    Try loading font information for U+msa on input line 41.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 38.
+LaTeX Font Info:    Try loading font information for U+msb on input line 41.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
- Make it at least 14.49998pt.
- We now make it that large for the rest of the document.
- This may cause the page layout to be inconsistent, however.
-
-[2] [3] [4] [5] [6] [7]
-Overfull \hbox (0.45616pt too wide) in paragraph at lines 365--366
-[]\T2A/cmr/bx/n/12 Определение ло-га-риф-ма. \T2A/cmr/m/n/12 Ло-га-риф-мом по-л
-о-жи-тель-но-го чис-ла $\OML/cmm/m/it/12 b$ \T2A/cmr/m/n/12 по ос-но-ва-нию $\O
-ML/cmm/m/it/12 a \OT1/cmr/m/n/12 (\OML/cmm/m/it/12 a >
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2]
+Overfull \hbox (14.35628pt too wide) in paragraph at lines 118--118
+[]\T2A/cmr/bx/n/14.4 Свойста квад-рат-но-го (ариф-ме-ти-че-ско-го) кор-
  []
 
-[8] [9] 
+[3] [4] <img/img01.png, id=29, 203.159pt x 203.159pt>
+File: img/img01.png Graphic file (type png)
+ <use img/img01.png>
+Package pdftex.def Info: img/img01.png used on input line 205.
+(pdftex.def)             Requested size: 83.93562pt x 83.93431pt.
+
+<img/img02.png, id=31, 203.159pt x 203.159pt>
+File: img/img02.png Graphic file (type png)
+ <use img/img02.png>
+Package pdftex.def Info: img/img02.png used on input line 205.
+(pdftex.def)             Requested size: 83.93562pt x 83.93431pt.
+
+<img/img03.png, id=32, 203.159pt x 203.159pt>
+File: img/img03.png Graphic file (type png)
+ <use img/img03.png>
+Package pdftex.def Info: img/img03.png used on input line 205.
+(pdftex.def)             Requested size: 83.93562pt x 83.93431pt.
+ [5 <./img/img01.png> <./img/img02.png> <./img/img03.png>] [6] [7]
+Overfull \hbox (6.60442pt too wide) detected at line 303
+\OML/cmm/m/it/10 a [] x \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 b [] x \OT1/cmr/m/n/
+10 = [] [](\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 '\OT1/cmr/m/n/
+10 )\OML/cmm/m/it/10 ; [] [] ' \OT1/cmr/m/n/10 = []\OML/cmm/m/it/10 ;  [] ' \OT
+1/cmr/m/n/10 = []
+ []
+
+[8] [9] [10] [11] [12]
+Overfull \hbox (38.91597pt too wide) in paragraph at lines 458--490
+ [] 
+ []
+
+
 AED: lastpage setting LastPage
-[10] (./mathhandbook.aux) ) 
+[13] (./mathhandbook.aux) ) 
 Here is how much of TeX's memory you used:
- 4777 strings out of 494466
- 59716 string characters out of 6172530
- 145507 words of memory out of 5000000
- 7898 multiletter control sequences out of 15000+600000
- 16562 words of font info for 50 fonts, out of 8000000 for 9000
+ 4793 strings out of 494466
+ 59909 string characters out of 6172530
+ 144501 words of memory out of 5000000
+ 7907 multiletter control sequences out of 15000+600000
+ 15648 words of font info for 47 fonts, out of 8000000 for 9000
  452 hyphenation exceptions out of 8191
  38i,16n,43p,607b,279s stack positions out of 5000i,500n,10000p,200000b,80000s
  </home/kalitvin/.texmf-var/fonts/pk/ljfour/lh/lh-t2
-a/labx1440.600pk> </home/kalitvin/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1200
-.600pk> </home/kalitvin/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1728.600pk> </
-home/kalitvin/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1200.600pk> </home/kalit
-vin/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1440.600pk> </home/kalitvin/.texmf
--var/fonts/pk/ljfour/lh/lh-t2a/larm2074.600pk></usr/share/texlive/texmf-dist/fo
+a/labx1200.600pk> </home/kalitvin/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1000
+.600pk> </home/kalitvin/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/labx1440.600pk> </
+home/kalitvin/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1000.600pk> </home/kalit
+vin/.texmf-var/fonts/pk/ljfour/lh/lh-t2a/larm1200.600pk> </home/kalitvin/.texmf
+-var/fonts/pk/ljfour/lh/lh-t2a/larm1728.600pk></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6
-.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></u
+pe1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on mathhandbook.pdf (10 pages, 195860 bytes).
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on mathhandbook.pdf (13 pages, 208826 bytes).
 PDF statistics:
- 344 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
+ 364 PDF objects out of 1000 (max. 8388607)
+ 83 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
