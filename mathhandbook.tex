@@ -1,4 +1,4 @@
-\documentclass[a5paper, 10pt]{article}
+\documentclass[a5paper, 8pt]{extarticle}
 \usepackage[T2A]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[russian]{babel}
@@ -33,6 +33,10 @@
 
 %Graphicx path
 \graphicspath{ {img/} }
+
+%Точки в заголовках
+\renewcommand{\thesection}{\arabic{section}.}
+\renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}.}
 
 \begin{document}
 \author{Калитвин В.А.\\
@@ -73,15 +77,14 @@ $$ (a+b+c)^2=a^2+b^2+c^2+2ab+2bc+2ac$$
 Квадрат разности
 $$(a-b)^2=a^2-2ab+b^2$$
 
-Куб суммы
+Разность квадратов
+$$a^2-b^2=(a-b)(a+b)$$
 
+Куб суммы
 $$(a+b)^3=a^3+3a^2b+3ab^2+b^3$$
 
 Куб разности
 $$(a-b)^3=a^3-3a^2b+3ab^2-b^3$$
-
-Разность квадратов
-$$a^2-b^2=(a-b)(a+b)$$
 
 Сумма кубов
 $$a^3+b^3=(a+b)(a^2-ab+b^2)$$
