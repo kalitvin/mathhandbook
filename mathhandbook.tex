@@ -11,6 +11,13 @@
 \usepackage{tabularx}
 \usepackage{indentfirst}
 
+%Watermark
+%\usepackage{draftwatermark}
+%\SetWatermarkText{draft}
+%\SetWatermarkScale{3}
+%\SetWatermarkColor[rgb]{0.9,0,0} 
+%\SetWatermarkLightness{0.9}
+
 %Колонтитулы
 \usepackage{lastpage} 
 \usepackage{fancybox,fancyhdr}
@@ -150,9 +157,12 @@ $$
 $$ 
 \begin{array}{lll}
 |a|\ge 0; \ \ \ \ \ & |a\cdot b|=|a|\cdot |b| \ \ \ \ & |a+b|\le |a|+|b|\\
-|a|=0 \Leftrightarrow a=0 & \left| \frac{a}{b}\right|=\frac{|a|}{|b|}, b\not=0& |a-b|\ge ||a|-|b|| 
+|a|=0 \Leftrightarrow a=0 & \left| \frac{a}{b}\right|=\frac{|a|}{|b|}, b\not=0& |a-b|\ge ||a|-|b|| \\
+|x|\le a, a\ge0 \Leftrightarrow -a\le x\le a & |x|\ge a \Leftrightarrow x\ge a \hbox{ или } x\le -a
 \end{array}
 $$
+
+
 
 Геометрический смысл модуля
 
@@ -571,6 +581,78 @@ $$
 \hline 
 \rowcolor{Gray}
 9 & 8100 & 8281 & 8464 & 8649 & 8836 & 9025 & 9216 & 9409 & 9604 & 9801 \\ 
+\hline 
+\end{tabular} 
+}
+\end{center}
+
+\section{Таблица кубов натуральных чисел от 1 до 10}
+
+\begin{center}
+{\setlength{\extrarowheight}{3pt}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
+\hline 
+$a$     & 1 & 2 & 3   &  4 & 5 & 6 & 7 & 8 & 9 &10\\ 
+\hline 
+$a^3$ &1 & 8 & 27 & 64 & 125 & 256 & 343 & 512 & 729 & 1000 \\ 
+\hline 
+\end{tabular} 
+}
+\end{center}
+
+
+\section{Простые числа от 2 до 997}
+
+\begin{center}
+{\setlength{\extrarowheight}{3pt}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline 
+\rowcolor{Gray}
+\hline 
+2  & 3 & 5 & 7 & 11 & 13 & 17 & 19 & 23 & 29 & 31 & 37 & 41\\ 
+\hline 
+43 & 47 & 53 & 59 & 61 & 67 & 71 & 73 & 79 & 83 & 89 & 97 & 101  \\
+\hline 
+\rowcolor{Gray}
+103 &107 & 109 & 113  & 127 & 131 & 137 & 139 & 149 & 151 & 157 & 163 & 167\\ 
+\hline 
+173 & 179 & 181 & 191 & 193 & 197 & 199 & 211 & 223 & 227 & 229 & 233 & 239 \\
+\hline 
+\rowcolor{Gray}
+241 & 251 & 257 & 263  & 269 & 271 & 277 & 281 & 283 & 293 & 307 & 311 & 313\\ 
+\hline 
+317 & 331 & 337 & 347 & 349 & 353 & 359 & 367 & 373 & 379 & 383 & 389 & 397 \\
+\hline 
+\rowcolor{Gray}
+401 & 409 & 419 & 421  & 431 & 433 & 439 & 443 & 449 & 457 & 461 & 463 & 467\\ 
+\hline 
+479 & 487 & 491 & 499 & 503 & 509 & 521 & 523 & 541 & 547 & 557 & 563 & 569 \\
+\hline 
+\rowcolor{Gray}
+571 & 577 & 587 & 593  & 599 & 601 & 607 & 613 & 617 & 619 & 631 & 641 & 643\\
+ \hline 
+647 & 653 & 659 & 661 & 673 & 677 & 683 & 691 & 701 & 709 & 719 & 727 & 733 \\
+\hline 
+\rowcolor{Gray}
+739 & 743 & 751 & 757  & 761 & 769 & 773 & 787 & 797 & 809 & 811 & 829 & 839\\
+ \hline 
+853 & 857 & 859 & 863 & 877 & 881 & 883 & 887 & 907 & 911 & 919 & 929 & 937 \\
+\hline 
+\rowcolor{Gray}
+941 & 947 & 953 & 967  & 971 & 977 & 983 & 991 & 997 &  &  &  & \\
+\hline
+\end{tabular} 
+}
+\end{center}
+
+\section{Греческий алфавит}
+
+\begin{center}
+{\setlength{\extrarowheight}{3pt}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
+\hline 
+\rowcolor{Gray}
+$A$ & $\alpha$ & альфа& B & $\beta$ & бета & $\Gamma$ & $\gamma$ & гамма & $\Delta$ & $\delta$ & дельта\\ 
 \hline 
 \end{tabular} 
 }
