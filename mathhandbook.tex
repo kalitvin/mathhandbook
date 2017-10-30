@@ -173,8 +173,7 @@ $|a-b|$ --- расстояние между точками $a$ и $b$.
 \section{Прогрессии}
 
 \textbf{Арифметическая прогрессия}
-$$
-a_{n+1}=a_n+d,$$ 
+$$a_{n+1}=a_n+d,$$ 
 
 где $d$ --- разность  прогрессии
 
@@ -267,7 +266,7 @@ $$\ctg(\alpha\pm\beta)=\frac{\ctg\alpha\ctg\beta\mp1}{\ctg\beta\pm\ctg\alpha}$$
 $$\sin2\alpha=2\sin\alpha\cos\alpha$$
 $$\cos2\alpha=\cos^2\alpha-\sin^2\alpha=1-2\sin^2\alpha=2\cos^2\alpha-1$$
 $$\tg2\alpha=\frac{2\tg\alpha}{1-\tg^2\alpha}=\frac{2}{\ctg\alpha-\tg\alpha}$$
-$$c\tg2\alpha=\frac{\ctg^2\alpha-1}{2\ctg\alpha}=\frac{\ctg\alpha-\tg\alpha}{2}$$
+$$\ctg 2\alpha=\frac{\ctg^2\alpha-1}{2\ctg\alpha}=\frac{\ctg\alpha-\tg\alpha}{2}$$
 
 \textbf{Тригонометрические функции тройного аргумента}
 
@@ -336,7 +335,7 @@ $$\sin x\cos y=\frac{1}{2}\left( \sin (x-y)+\sin (x+y)\right)$$
 {\setlength{\extrarowheight}{5pt}
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|}
 \hline 
-Угол в градсах & $0^\circ$ & $30^\circ$ & $45^\circ$ & $60^\circ$ & $90^\circ$ & $180^\circ$ & $270^\circ$ & $360^\circ$ \\[5pt]
+Угол в градусах & $0^\circ$ & $30^\circ$ & $45^\circ$ & $60^\circ$ & $90^\circ$ & $180^\circ$ & $270^\circ$ & $360^\circ$ \\[5pt]
 \hline
 \rowcolor{Gray}
 Угол в радианах & 0 & $\frac{\pi}{6}$ & $\frac{\pi}{4}$ & $\frac{\pi}{3}$ & $\frac{\pi}{2}$ & $\pi$ & $\frac{3\pi}{2}$ & $2\pi$ \\ [5pt]
@@ -369,6 +368,72 @@ $$\lim\limits_{x\to 0}\frac{tg x}{x}=1$$
 $$\lim\limits_{x\to 0}\frac{a^x-1}{x}=ln a, a>0$$
 $$\lim\limits_{x\to 0}\frac{ln(1+x)}{x}=1$$
 
+\section{Производная}
+
+\textbf{Производной} функции $f(x)$  в точке $x_0$ называется  предел отношения приращения функции $\Delta f=f(x_0+\Delta x)-f(x_0)$ к приращению аргумента $\Delta x$ при $\Delta x\to 0,$ если этот предел существует
+$$
+f'(x)=\lim\limits_{\Delta x\to 0}\frac{f(x_0+\Delta x)-f(x_0)}{\Delta x}
+$$
+
+\begin{center}
+\textbf{Геометрический смысл производной}
+\end{center}
+Производная в точке $x_0$ равна угловому коэффициенту касательной
+к графику функции $f(x)$ в этой точке
+
+\begin{center}
+\textbf{Уравнение касательной}\\
+к графику функции $f(x)$ в точке $x_0$
+\end{center}
+$$y=f(x_0)+f'(x_0)(x-x_0)$$
+
+\begin{center}
+\textbf{Вторая производная}
+\end{center}
+
+Второй производной функции $y=f(x)$ называется производная от производной $f'(x)$  и обозначается $f''(x).$
+
+\begin{center}
+\textbf{Физический смысл производной}
+\end{center}
+Если точка перемещается по оси $x$ и ее координата изменяется по закону $x(t),$ то мгновенная скорость точки - производная функции $x(t)$ 
+$$
+v(t)=\lim\limits_{\Delta t\to 0}\frac{x(t+\Delta t)-x(t)}{\Delta t}=x'(t)
+$$
+
+\begin{center}
+\textbf{Физический смысл второй производной}
+\end{center}
+Если точка перемещается по оси $x$ и ее координата изменяется по закону $x(t),$ то ускорение точки - вторая производная функции $x(t)$ 
+$$
+a(t)=\lim\limits_{\Delta t\to 0}\frac{v(t+\Delta t)-v(t)}{\Delta t}=v'(t)=x''(t)
+$$
+
+\begin{center}
+\textbf{Правила дифференцирования}
+\end{center}
+
+Если у функций $u(x)$ и $v(x)$ существуют производные, то
+$$
+(u\pm v)'=u'\pm v'
+$$
+$$
+(cu)'=cu', \ c=const
+$$
+$$
+(uv)'=u'v+uv'
+$$
+$$
+\left(\frac{u}{v}\right)'=\frac{u'v-uv'}{v^2},\ v\not= 0
+$$
+
+\begin{center}
+\textbf{Производная сложной функции}
+\end{center}
+
+Если $y=f(g(x))$ и существуют производные $f'_g$ и $g'_x,$ то
+$$y'_x=f'_g\cdot g'_x$$
+
 \section{Производные элементарных функций}
 
 \begin{center}
@@ -379,19 +444,33 @@ $$\lim\limits_{x\to 0}\frac{ln(1+x)}{x}=1$$
 Функция & Производная \\[5pt]
 \hline
 $f(x)=c$ & $c'=0,$ где $c$ --- const \\[5pt]
+\hline
 $f(x)=x^n$ & $(x^n)'=nx^{n-1}$ \\[5pt]
+\hline
 $f(x)=e^x$ & $(e^x)'=e^x$ \\[5pt]
+\hline
 $f(x)=a^x$ & $(a^x)'=a^x lna$ \\[5pt]
+\hline
 $f(x)=lnx$ & $(lnx)'=\frac{1}{x}$ \\[5pt]
+\hline
 $f(x)=log_ax$ & $(log_ax)'=\frac{1}{xlna}$ \\[5pt]
+\hline
 $f(x)=\sin x$ & $(\sin x)'=\cos x$ \\[5pt]
+\hline
 $f(x)=\cos x$ & $(\cos x)'=-\sin x$ \\[5pt]
+\hline
 $f(x)=\tg x$ & $(\tg x)'=\frac{1}{\cos^2 x}$ \\[5pt]
+\hline
 $f(x)=\ctg x$ & $(\ctg x)'= -\frac{1}{\sin^2 x}$ \\[5pt]
+\hline
 $f(x)=arcsin x$ & $(arcsin x)'=\frac{1}{\sqrt{1-x^2}}$ \\[5pt]
+\hline
 $f(x)=arccos x$ & $(arccos x)'=-\frac{1}{\sqrt{1-x^2}}$ \\[5pt]
+\hline
 $f(x)=arctg x$ & $(arctg x)'=\frac{1}{1+x^2}$ \\[5pt]
+\hline
 $f(x)=arcctg x$ & $(arcctg x)'=-\frac{1}{1+x^2}$ \\[5pt]
+\hline
 \end{tabular} 
 }
 \end{center}
@@ -440,6 +519,66 @@ $$log_{10}b=lgb$$
 
 Натуральный логарифм --- это логарифм по основанию $e.$
 $$log_eb=ln b.$$
+
+\section{Таблица интегралов элементарных функций}
+
+$$\int 0\cdot dx=C$$
+$$\int 1\cdot dx=x+C$$
+$$\int x^n dx=\frac{x^{n+1}}{n+1}+C \ (n\not= -1)$$
+$$\int e^x dx=e^x+C$$
+$$\int \frac{1}{x}dx=ln|x|+C$$
+$$
+\int\frac{1}{\sqrt{1-x^2}}dx=
+\left\{
+\begin{array}{l}
+arcsin x+C\\
+-arccos x+C\\
+\end{array}
+\right.
+$$
+$$
+\int\frac{1}{1+x^2}dx=
+\left\{
+\begin{array}{l}
+arctg x+C\\
+-arcctg x+C\\
+\end{array}
+\right.
+$$
+$$\int a^xdx=\frac{a^x}{lna}+C$$
+$$\int \sin x dx=-\cos x+C$$
+$$\int \cos x dx=\sin x+C$$
+$$\int \tg x dx=-ln|\cos x|+C$$
+$$\int \ctg x dx=ln|\sin x| +C$$
+$$\int\frac{1}{\cos^2x}dx=\tg x +C$$
+$$\int\frac{1}{\sin^2 x}dx=-\ctg x +C$$
+$$\int\frac{1}{\sin^2x}dx=-\ctg x +C$$
+$$\int \frac{1}{\sin x}dx=ln\left|tg\frac{x}{2}\right|+C$$
+$$\int\frac{1}{cos x}dx=ln\left|tg(\frac{x}{2}+\frac{\pi}{4})\right|+C$$
+$$
+\int\frac{1}{\sqrt{a^2-x^2}}dx=
+\left\{
+\begin{array}{l}
+arcsin\frac{x}{a}+C\\
+-arccos\frac{x}{a}+C\\
+\end{array}
+\right.
+$$
+$$
+\int\frac{1}{a^2+x^2}dx=
+\left\{
+\begin{array}{l}
+\frac{1}{a}arctg\frac{x}{a}+C\\
+-\frac{1}{a}arcctg\frac{x}{a}+C\\
+\end{array}
+\right.
+$$
+$$
+\int\frac{1}{a^2-x^2}dx=
+\frac{1}{2a}ln|\frac{a+x}{a-x}|+C
+$$
+
+
 
 \section{Основные формулы комбинаторики}
 
@@ -652,8 +791,21 @@ $a^3$ &1 & 8 & 27 & 64 & 125 & 256 & 343 & 512 & 729 & 1000 \\
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
 \hline 
 \rowcolor{Gray}
-$A$ & $\alpha$ & альфа& B & $\beta$ & бета & $\Gamma$ & $\gamma$ & гамма & $\Delta$ & $\delta$ & дельта\\ 
+A & $\alpha$ & альфа& B & $\beta$ & бета & $\Gamma$ & $\gamma$ & гамма & $\Delta$ & $\delta$ & дельта\\ 
 \hline 
+$\Pi$ & $\pi$ & пи& E & $\epsilon$ & эпсилон & P & $\rho$ & ро & Z & $\zeta$ & дзета \\ 
+\hline 
+\rowcolor{Gray}
+$\Sigma$ & $\sigma$ & сигма & H & $\eta$ & эта & T & $\tau$ & тау & $\Theta$ & $\theta$ & тета\\ 
+\hline 
+$\Upsilon$ & $\upsilon$ & ипсилон & I & $\iota$ & йота & $\Phi$ & $\phi$ & фи & K & $\kappa$ & каппа \\ 
+\hline 
+\rowcolor{Gray}
+X & $\xi$ & хи & $\Lambda$ & $\lambda$ & лямбда & $\Psi$ & $\psi$ & пси & M & $\mu$ & мю\\ 
+\hline
+$\Omega$ & $\omega$ & омега & &  & & & & & & & \\ 
+\hline 
+
 \end{tabular} 
 }
 \end{center}
