@@ -1,4 +1,9 @@
-\documentclass[a5paper, 8pt]{extarticle}
+\documentclass[a5paper, 10pt]{extarticle}
+
+\IfFileExists{pscyr.sty}
+  {\usepackage{pscyr}}
+  {}
+
 \usepackage[T2A]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[russian]{babel}
@@ -10,6 +15,8 @@
 \usepackage{graphicx}
 \usepackage{tabularx}
 \usepackage{indentfirst}
+
+
 
 %Watermark
 %\usepackage{draftwatermark}
@@ -48,41 +55,113 @@
 \begin{document}
 \author{Калитвин В.А.\\
 kalitvin@gmail.com}
-\title{Справочник формул по математике}
+{\large
+\title{\bf СПРАВОЧНИК ФОРМУЛ ПО МАТЕМАТИКЕ\\
+\ 
+\\ 
+Часть 1. Алгебра и начала анализа.}
 \maketitle
 \thispagestyle{empty}
 \newpage
 
 \section{Признаки делимости}
 
-\textbf{на 2} --- последняя цифра числа чётная
+\begin{tabular}{lp{0.8\textwidth}}
+\textbf{на 2} & последняя цифра числа чётная\\ 
+\textbf{на 3} & сумма цифр числа делится на 3\\ 
+\textbf{на 4} & две последние цифры числа нули или образуют число, делящиеся на 4\\
+\textbf{на 5} & последняя цифра числа 0 или 5\\
+\textbf{на 6} & число должно делится на 2 и на 3\\
+\textbf{на 7} & число, полученное вычитанием удвоенной последней цифры из исходного числа с отброшенной последней цифрой, делится на 7 
+\break (Пример: 5915, 591-10=581)\\
+\textbf{на 8} & три последние цифры числа нули или образуют число, делящееся на 8\\
+\textbf{на 9} & сумма цифр числа делится на 9\\
+\textbf{на 10} & число должно заканчиваться на 0\\
+\textbf{на 11} & сумма цифр, стоящих на четных местах, отличается от суммы цифр, стоящих на нечётных местах, на число, кратное 11\\
+\textbf{на 25} & две последние цифры цисла 00, 25, 50 или 75\\
+\end{tabular} 
 
-\textbf{на 3} --- сумма цифр числа делится на 3
+\section{Свойства степени}
+$$
+\begin{array}{lll}
+a^0=1 
+& 
+a^m\cdot a^n=a^{m+n}
+&
+\frac{a^m}{a^n}=a^{m-n}
+\\
+\
+\\
+(a\cdot b)^m=a^m\cdot b^m 
+& 
+\left(\frac{a}{b}\right)^m =\frac{a^m}{b^m}
+&
+(a^m)^n=a^{mn}\\
+\ 
+\\
+a^{-n}=\frac{1}{a^n} 
+&
+a^{\frac{1}{n}}=\root{n}\of{a}
+&
+a^{\frac{m}{n}}=\root{n}\of{a^m}\\
+\end{array}
+$$
 
-\textbf{на 4} --- две последние цифры числа нули или образуют число, делящиеся на 4
+\newpage
+\section{Модуль числа}
+$$|a|=\left\{
+\begin{array}{l}
+a, a\ge 0,\\
+-a, a<0,
+\end{array}
+\right., 
+|a|=\sqrt{a^2}
+$$
 
-\textbf{на 5} --- последняя цифра числа 0 или 5
+Свойства
+$$ 
+\begin{array}{ll}
+|a|\ge 0 
+& 
+|a|=0 \Leftrightarrow a=0 
+\\
+|a\cdot b|=|a|\cdot |b|
+&
+\left| \frac{a}{b}\right|=\frac{|a|}{|b|}, b\not=0
+\\
+|a+b|\le |a|+|b|
+&
+|a-b|\ge ||a|-|b||
+\\
+|x|\le a, a\ge0 \Leftrightarrow -a\le x\le a 
+& 
+|x|\ge a \Leftrightarrow x\ge a \hbox{ или } x\le -a
+\end{array}
+$$
 
-\textbf{на 6} --- число должно делится на 2 и на 3
+Геометрический смысл модуля
 
-\textbf{на 7} --- число, полученное вычитанием удвоенной последней цифры из исходного числа с отброшенной последней цифрой, делится на 7 (Пример: 5915, 591-10=581)
+$|a|$ --- расстояние от $0$ до точки $a.$
 
-\textbf{на 8} --- три последние цифры числа нули или образуют число, делящееся на 8
+$|a-b|$ --- расстояние между точками $a$ и $b$.
 
-\textbf{на 9} --- сумма цифр числа делится на 9 
+\section{Свойства квадратного (арифметического) корня}
+$$
+\begin{array}{ll}
+\sqrt{a}\cdot \sqrt{b} = \sqrt{ab}  & \root{n}\of{a}=\root{nk}\of{a^k} \\
+\frac{\sqrt{a}}{\sqrt{b}}=\sqrt{\frac{a}{b}}, b\not= 0 & \root{n}\of{a}\cdot \root{n}\of{b}=\root{n}\of{a\cdot b}\\
+(\sqrt{a})^m=\sqrt{a^m} & \frac{\root{n}\of{a}}{\root{n}\of{b}}=\root{n}\of{\frac{a}{b}}, b\not=0\\
+\sqrt{ab}=\sqrt{|a|}\cdot \sqrt{|b|} & (\root{n}\of{a})^m = \root{n}\of{a^m}\\
+\sqrt{\frac{a}{b}}=\frac{\sqrt{|a|}}{|b|}, b\not=0 & \root{n}\of{\root{m}\of{a}} = \root{nm}\of{a}\\
+\sqrt{a^m}=(\sqrt{|a|})^m
+\end{array}
+$$
 
-\textbf{на 10} --- число должно заканчиваться на 0
-
-\textbf{на 11} --- сумма цифр, стоящих на четных местах, отличается от суммы цифр, стоящих на нечётных местах, на число, кратное 11
-
-\textbf{на 25} --- две последние цифры цисла 00, 25, 50 или 75
-
-
+\newpage
 \section{Формулы сокращенного умножения}
 
 Квадрат суммы
 $$ (a+b)^2=a^2+2ab+b^2$$
-
 $$ (a+b+c)^2=a^2+b^2+c^2+2ab+2bc+2ac$$
 
 Квадрат разности
@@ -117,58 +196,10 @@ $$(a+b)^n=\sum\limits_{k=0}^n C_n^ka^{n-k}b^k=$$
 $$=C_n^0a^n+C_n^1a^{n-1}b^1+C_n^2a^{n-2}b^2+\dots +C_n^{n-1}a^1b^{n-1}+C_n^nb^n,$$
 где $C_n^k=\frac{n!}{k!(n-k)!}$ --- число сочетаний из $n$ по $k.$
 
-\section{Свойства степени}
-
-$$
-\begin{array}{ll}
-a^0=1  & a^m\cdot a^n=a^{m+n}\\
-a^m: a^n=a^{m-n} & a^{-n}=\frac{1}{a^n}\\
-(a^m)^n=a^{mn} & (\frac{a}{b})^{-m}=(\frac{b}{a})^{m}\\
-(a\cdot b)^m=a^m\cdot b^m & a^{\frac{1}{n}}=\root{n}\of{a}\\
-(\frac{a}{b})^m =\frac{a^m}{b^m} & a^{\frac{m}{n}}=\root{n}\of{a^m}\\
-\end{array}
-$$
-
-\section{Свойста квадратного (арифметического) корня}
-
-$$
-\begin{array}{ll}
-\sqrt{a}\cdot \sqrt{b} = \sqrt{ab}  & \root{n}\of{a}=\root{nk}\of{a^k} \\
-\frac{\sqrt{a}}{\sqrt{b}}=\sqrt{\frac{a}{b}}, b\not= 0 & \root{n}\of{a}\cdot \root{n}\of{b}=\root{n}\of{a\cdot b}\\
-(\sqrt{a})^m=\sqrt{a^m} & \frac{\root{n}\of{a}}{\root{n}\of{b}}=\root{n}\of{\frac{a}{b}}, b\not=0\\
-\sqrt{ab}=\sqrt{|a|}\cdot \sqrt{|b|} & (\root{n}\of{a})^m = \root{n}\of{a^m}\\
-\sqrt{\frac{a}{b}}=\frac{\sqrt{|a|}}{|b|}, b\not=0 & \root{n}\of{\root{m}\of{a}} = \root{nm}\of{a}\\
-\sqrt{a^m}=(\sqrt{|a|})^m
-\end{array}
-$$
-
-\section{Модуль числа}
-
-$$|a|=\left\{
-\begin{array}{l}
-a, a\ge 0,\\
--a, a<0,
-\end{array}
-\right., 
-|a|=\sqrt{a^2}
-$$
-
-Свойства
-$$ 
-\begin{array}{lll}
-|a|\ge 0; \ \ \ \ \ & |a\cdot b|=|a|\cdot |b| \ \ \ \ & |a+b|\le |a|+|b|\\
-|a|=0 \Leftrightarrow a=0 & \left| \frac{a}{b}\right|=\frac{|a|}{|b|}, b\not=0& |a-b|\ge ||a|-|b|| \\
-|x|\le a, a\ge0 \Leftrightarrow -a\le x\le a & |x|\ge a \Leftrightarrow x\ge a \hbox{ или } x\le -a
-\end{array}
-$$
 
 
 
-Геометрический смысл модуля
 
-$|a|$ --- расстояние от $0$ до точки $a.$
-
-$|a-b|$ --- расстояние между точками $a$ и $b$.
 
 \section{Прогрессии}
 
@@ -194,6 +225,7 @@ $$a_n+a_m=a_k+a_p$$
 Сумма последовательных натуральных чисел от  1 до $n:$
 $$S=\frac{n(n+1)}{2}$$
 
+\newpage
 \textbf{Геометрическая прогрессия}
 $$
 b_{n+1}=b_n\cdot q,$$ 
@@ -216,8 +248,9 @@ $$q=\frac{b_{n+1}}{b_n}$$
 $$b_n\cdot b_m=b_k\cdot b_p$$
 
 Сумма бесконечно убывающей геометрической прогрессии
-$$S=\frac{b_1}{1-q}, |q|<1$$
+$$S=\frac{b_1}{1-q},\  |q|<1$$
 
+\newpage
 \section{Тригонометрия}
 
 \textbf{Знаки тригонометрических функций по четвертям}
@@ -233,19 +266,19 @@ $\sin x$ & $\cos x$ & $\tg x, \ctg x$ \\
 
 $$\sin^2\alpha+\cos^2\alpha=1$$
 
-$$\tg\alpha =\frac{\sin\alpha}{\cos\alpha}$$
-
-$$\ctg\alpha =\frac{\cos\alpha}{\sin\alpha}$$
+$$\tg\alpha =\frac{\sin\alpha}{\cos\alpha}
+\hskip 1cm
+\ctg\alpha =\frac{\cos\alpha}{\sin\alpha}$$
 
 $$\tg\alpha \cdot \ctg\alpha = 1$$
 
-$$|\cos \alpha |=\sqrt{1-\sin^2\alpha}$$
+$$|\cos \alpha |=\sqrt{1-\sin^2\alpha}
+\hskip 1cm
+|\sin \alpha |=\sqrt{1-\cos^2\alpha}$$
 
-$$|\sin \alpha |=\sqrt{1-\cos^2\alpha}$$
-
-$$\tg\alpha = \frac{1}{\ctg\alpha}$$
-
-$$\ctg\alpha = \frac{1}{\tg\alpha}$$
+$$\tg\alpha = \frac{1}{\ctg\alpha}
+\hskip 1cm
+\ctg\alpha = \frac{1}{\tg\alpha}$$
 
 $$1+\tg^2\alpha =\frac{1}{\cos^2\alpha}=sec^2\alpha$$
 
@@ -277,19 +310,24 @@ $$\ctg3\alpha=\frac{\ctg^3\alpha-3\ctg\alpha}{3\ctg^2\alpha-1}$$
 
 \textbf{Тригонометрические функции половинного аргумента}
 
-$$\sin^2\frac{\alpha}{2}=\frac{1-\cos\alpha}{2}$$
-$$\cos^2\frac{\alpha}{2}=\frac{1+\cos\alpha}{2}$$
-$$\tg^2\frac{\alpha}{2}=\frac{1-\cos\alpha}{1+\cos\alpha}$$
-$$\ctg^2\frac{\alpha}{2}=\frac{1+\cos\alpha}{1-\cos\alpha}$$
+$$\sin^2\frac{\alpha}{2}=\frac{1-\cos\alpha}{2}
+\hskip 1cm
+\cos^2\frac{\alpha}{2}=\frac{1+\cos\alpha}{2}$$
+$$\tg^2\frac{\alpha}{2}=\frac{1-\cos\alpha}{1+\cos\alpha}
+\hskip 1cm
+\ctg^2\frac{\alpha}{2}=\frac{1+\cos\alpha}{1-\cos\alpha}$$
 $$\tg\frac{\alpha}{2}=\frac{\sin\alpha}{1+\cos\alpha}=\frac{1-\cos\alpha}{\sin\alpha}$$
 $$\ctg\frac{\alpha}{2}=\frac{\sin\alpha}{1-\cos\alpha}=\frac{1+\cos\alpha}{\sin\alpha}$$
 
+\bigskip
 \textbf{Выражение тригонометрических функций через тангенс половинного угла}
 
-$$\sin\alpha=\frac{2\tg\frac{\alpha}{2}}{1+\tg^2\frac{\alpha}{2}}$$
-$$\cos\alpha=\frac{1-\tg^2\frac{\alpha}{2}}{1+\tg^2\frac{\alpha}{2}}$$
-$$\tg\alpha=\frac{2\tg\frac{\alpha}{2}}{1-\tg^2\frac{\alpha}{2}}$$
-$$\ctg\alpha=\frac{1-\tg^2\frac{\alpha}{2}}{2\tg\frac{\alpha}{2}}$$
+$$\sin\alpha=\frac{2\tg\frac{\alpha}{2}}{1+\tg^2\frac{\alpha}{2}}
+\hskip 1cm
+\cos\alpha=\frac{1-\tg^2\frac{\alpha}{2}}{1+\tg^2\frac{\alpha}{2}}$$
+$$\tg\alpha=\frac{2\tg\frac{\alpha}{2}}{1-\tg^2\frac{\alpha}{2}}
+\hskip 1cm
+\ctg\alpha=\frac{1-\tg^2\frac{\alpha}{2}}{2\tg\frac{\alpha}{2}}$$
 
 \textbf{Формулы преобразования суммы в произведение}
 
@@ -301,17 +339,17 @@ $$\cos x+\cos y = 2\cos\frac{x+y}{2}\cos\frac{x-y}{2}$$
 
 $$\cos x-\cos y = -2\sin\frac{x+y}{2}\sin\frac{x-y}{2}$$
 
-$$\tg x+\tg y=\frac{\sin(x+y)}{\cos x\cos y}$$
+$$\tg x+\tg y=\frac{\sin(x+y)}{\cos x\cos y}
+\hskip 1cm
+\tg x-\tg y=\frac{\sin(x-y)}{\cos x\cos y}$$
 
-$$\tg x-\tg y=\frac{\sin(x-y)}{\cos x\cos y}$$
+$$\ctg x+\ctg y=\frac{\sin(x+y)}{\sin x\sin y}
+\hskip 1cm
+\ctg x-\ctg y=-\frac{\sin(x-y)}{\sin x\sin y}$$
 
-$$\ctg x+\ctg y=\frac{\sin(x+y)}{\sin x\sin y}$$
-
-$$\ctg x-\ctg y=-\frac{\sin(x-y)}{\sin x\sin y}$$
-
-$$\tg x+\ctg y=\frac{\cos(x-y)}{\cos x\sin y}$$
-
-$$\tg x -\ctg y=-\frac{cos(x+y)}{\cos x\sin y}$$
+$$\tg x+\ctg y=\frac{\cos(x-y)}{\cos x\sin y}
+\hskip 1cm
+\tg x -\ctg y=-\frac{cos(x+y)}{\cos x\sin y}$$
 
 $$\tg x+\ctg x=\frac{1}{\sin x\cos x}=\frac{2}{\sin 2x}$$
 
@@ -321,8 +359,8 @@ $$\cos x + \sin x = \sqrt{2}\cos(45^\circ -x)=\sqrt{2}\sin(45^\circ +x)$$
 
 $$\cos x - \sin x = \sqrt{2}\sin(45^\circ -x)=\sqrt{2}\cos(45^\circ +x)$$
 
-$$a\sin x +b\cos x = \sqrt{a^2+b^2}\sin (x+\varphi), 
-\hbox{ где } \sin\varphi = \frac{b}{\sqrt{a^2+b^2}}, \  \cos\varphi=\frac{a}{\sqrt{a^2+b^2}}$$
+$$a\sin x +b\cos x = \sqrt{a^2+b^2}\sin (x+\varphi),$$ 
+$$\hbox{ где } \sin\varphi = \frac{b}{\sqrt{a^2+b^2}}, \  \cos\varphi=\frac{a}{\sqrt{a^2+b^2}}$$
 
 \textbf{Формулы преобразования произведения в сумму}
 $$\sin x\sin y=\frac{1}{2}\left( \cos(x-y)-\cos(x+y)\right)$$
@@ -490,11 +528,11 @@ $$log_ab=c \Leftrightarrow a^c=b$$
 $$a^{log_ab}=b,  $$
 $$\hbox{ где } a>0; a\not= 1; b>0.$$
 
-$$log_aa=1$$
-
-$$log_a1=0$$
-
-$$log_aa^m=m$$
+$$log_aa=1
+\hskip 1cm
+log_a1=0
+\hskip 1cm
+log_aa^m=m$$
 
 Логарифм произведения
 $$log_c(ab)=log_ca+log_cb, \ a>0, b>0.$$
@@ -511,7 +549,7 @@ $$log_{c^n}a=\frac{1}{n}log_ca, a>0, c>0, c\not=1.$$
 $$log_{c^n}a=\frac{1}{n}log_{|c|}a, a>0, c\not=1.$$
 
 Логарифм корня
-$$log_c \root{n}\of{a}=\frac{1}{n}log_ca, a>0, c>0, c\not=1.$$$$
+$$log_c \root{n}\of{a}=\frac{1}{n}log_ca, a>0, c>0, c\not=1.$$
 
 Переход к новому основанию
 $$log_ab=\frac{log_cb}{log_ca}, a>0, a\not=1, c>0, c\not=1, b>0$$
@@ -697,6 +735,7 @@ $$
 
 \section{Таблица квадратов двузначных натуральных чисел}
 
+{\scriptsize
 \begin{center}
 {\setlength{\extrarowheight}{3pt}
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
@@ -732,6 +771,7 @@ $$
 \end{tabular} 
 }
 \end{center}
+}
 
 \section{Таблица кубов натуральных чисел от 1 до 10}
 
@@ -750,6 +790,7 @@ $a^3$ &1 & 8 & 27 & 64 & 125 & 256 & 343 & 512 & 729 & 1000 \\
 
 \section{Простые числа от 2 до 997}
 
+{\scriptsize
 \begin{center}
 {\setlength{\extrarowheight}{3pt}
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
@@ -791,9 +832,11 @@ $a^3$ &1 & 8 & 27 & 64 & 125 & 256 & 343 & 512 & 729 & 1000 \\
 \end{tabular} 
 }
 \end{center}
+}
 
 \section{Греческий алфавит}
 
+{\scriptsize
 \begin{center}
 {\setlength{\extrarowheight}{3pt}
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
@@ -813,9 +856,9 @@ X & $\xi$ & хи & $\Lambda$ & $\lambda$ & лямбда & $\Psi$ & $\psi$ & пс
 \hline
 $\Omega$ & $\omega$ & омега & &  & & & & & & & \\ 
 \hline 
-
 \end{tabular} 
 }
 \end{center}
+}
 
 \end{document}
