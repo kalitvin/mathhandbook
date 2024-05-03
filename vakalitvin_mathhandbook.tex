@@ -1,4 +1,4 @@
-\documentclass[a5paper, 10pt]{extarticle}
+\documentclass[a4paper, 14pt]{extarticle}
 
 \IfFileExists{pscyr.sty}
   {\usepackage{pscyr}}
@@ -7,7 +7,7 @@
 \usepackage[T2A]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[russian]{babel}
-\usepackage[left=1.5cm,right=1.5cm,top=1.5cm,bottom=1.5cm]{geometry} 
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry} 
 
 \usepackage{amsmath}
 \usepackage{amsfonts}
@@ -15,6 +15,7 @@
 \usepackage{graphicx}
 \usepackage{tabularx}
 \usepackage{indentfirst}
+
 
 
 
@@ -52,6 +53,16 @@
 \renewcommand{\thesection}{\arabic{section}.}
 \renewcommand{\thesubsection}{\arabic{section}.\arabic{subsection}.}
 
+%\usepackage{titlesec}
+%\titlespacing*{\section}{0pt}{0.5\baselineskip}{0\baselineskip}
+
+%\AtBeginDocument{%
+%  \setlength\abovedisplayskip{1pt}
+%  \setlength\belowdisplayskip{2pt}
+%  \setlength\abovedisplayshortskip{1pt}
+%  \setlength\belowdisplayshortskip{2pt}}
+
+  
 \begin{document}
 \author{Калитвин В.А.\\
 kalitvin@gmail.com}
@@ -64,7 +75,9 @@ kalitvin@gmail.com}
 \thispagestyle{empty}
 \newpage
 
-\section{Признаки делимости}
+\section{Числа}
+
+\subsection{Признаки делимости}
 
 \begin{tabular}{lp{0.8\textwidth}}
 \textbf{на 2} & последняя цифра числа чётная\\ 
@@ -81,7 +94,7 @@ kalitvin@gmail.com}
 \textbf{на 25} & две последние цифры цисла 00, 25, 50 или 75\\
 \end{tabular} 
 
-\section{Свойства степени}
+\subsection{Свойства степени}
 $$
 \begin{array}{lll}
 a^0=1 
@@ -108,7 +121,7 @@ a^{\frac{m}{n}}=\root{n}\of{a^m}\\
 $$
 
 \newpage
-\section{Модуль числа}
+\subsection{Модуль числа}
 $$|a|=\left\{
 \begin{array}{l}
 a, a\ge 0,\\
@@ -145,7 +158,7 @@ $|a|$ --- расстояние от $0$ до точки $a.$
 
 $|a-b|$ --- расстояние между точками $a$ и $b$.
 
-\section{Свойства квадратного (арифметического) корня}
+\subsection{Свойства квадратного (арифметического) корня}
 $$
 \begin{array}{ll}
 \sqrt{a}\cdot \sqrt{b} = \sqrt{ab}  & \root{n}\of{a}=\root{nk}\of{a^k} \\
@@ -157,8 +170,15 @@ $$
 \end{array}
 $$
 
-\newpage
-\section{Формулы сокращенного умножения}
+\subsection{Разложение квадратного трехчлена на линейные множители}
+\vspace*{-30pt}
+$$
+ax^2 + bx +c = a(x-x_1)(x-x_2),
+$$
+\noindent где $x_1, x_2$ -- корни уравнения $ax^2 + bx +c = 0.$ 
+
+\section{Алгебраические выражения и преобразования}
+\subsection{Формулы сокращенного умножения}
 
 Квадрат суммы
 $$ (a+b)^2=a^2+2ab+b^2$$
@@ -251,6 +271,12 @@ $$b_n\cdot b_m=b_k\cdot b_p$$
 $$S=\frac{b_1}{1-q},\  |q|<1$$
 
 \newpage
+\section{Функции и графики}
+
+\section{Уравнения и системы уравнений}
+
+\section{Неравенства}
+
 \section{Тригонометрия}
 
 \textbf{Знаки тригонометрических функций по четвертям}
@@ -410,7 +436,11 @@ $$\lim\limits_{x\to 0}\frac{tg x}{x}=1$$
 $$\lim\limits_{x\to 0}\frac{a^x-1}{x}=ln a, a>0$$
 $$\lim\limits_{x\to 0}\frac{ln(1+x)}{x}=1$$
 
-\section{Производная}
+\section{Элементы математического анализа}
+
+\subsection{Предел}
+
+\subsection{Производная}
 
 \textbf{Производной} функции $f(x)$  в точке $x_0$ называется  предел отношения приращения функции $\Delta f=f(x_0+\Delta x)-f(x_0)$ к приращению аргумента $\Delta x$ при $\Delta x\to 0,$ если этот предел существует
 $$
@@ -476,7 +506,7 @@ $$
 Если $y=f(g(x))$ и существуют производные $f'_g$ и $g'_x,$ то
 $$y'_x=f'_g\cdot g'_x$$
 
-\section{Производные элементарных функций}
+\subsection{Производные элементарных функций}
 
 \begin{center}
 {\setlength{\extrarowheight}{5pt}
@@ -517,56 +547,9 @@ $f(x)=arcctg x$ & $(arcctg x)'=-\frac{1}{1+x^2}$ \\[5pt]
 }
 \end{center}
 
-\section{Логарифмы}
-\textbf{Определение логарифма.} Логарифмом положительного числа $b$ по основанию $a\ (a>0, a\not=1 )$ называется показатель степени, в которую нужно возвести $a$, чтобы получить $b.$
 
-$$log_ab=c \Leftrightarrow a^c=b$$
- 
-\textbf{Свойства логарифма}
 
-Основное логарифмическое тождество:
-$$a^{log_ab}=b,  $$
-$$\hbox{ где } a>0; a\not= 1; b>0.$$
-
-$$log_aa=1
-\hskip 1cm
-log_a1=0
-\hskip 1cm
-log_aa^m=m$$
-
-Логарифм произведения
-$$log_c(ab)=log_ca+log_cb, \ a>0, b>0.$$
-$$log_c(ab)=log_c|a|+log_c|b|, \ ab>0.$$
-
-Логарифм частного
-$$log_c(\frac{a}{b})=log_ca-log_cb, \ a>0, b>0$$
-$$log_c(\frac{a}{b})=log_c|a|-log_c|b|, \ ab>0$$
-
-Логарифм степени
-$$log_ca^n=n\cdot log_ca, a>0, c>0, c\not=1.$$
-$$log_ca^n=n\cdot log_c|a|, c>0, c\not=1, n- \hbox{четное }.$$
-$$log_{c^n}a=\frac{1}{n}log_ca, a>0, c>0, c\not=1.$$
-$$log_{c^n}a=\frac{1}{n}log_{|c|}a, a>0, c\not=1.$$
-
-Логарифм корня
-$$log_c \root{n}\of{a}=\frac{1}{n}log_ca, a>0, c>0, c\not=1.$$
-
-Переход к новому основанию
-$$log_ab=\frac{log_cb}{log_ca}, a>0, a\not=1, c>0, c\not=1, b>0$$
-
-Формулы, следующие из свойств логарифмов
-$$log_ab=\frac{1}{log_ba}$$
-$$\frac{log_nb}{log_nc}=\frac{log_mb}{log_mc}=log_cb$$
-$$log_nb\cdot log_mc=log_mb\cdot log_nc$$
-$$a^{log_nb}=b^{log_na}$$
-
-Десятичный логарифм - это логарифм по основанию 10:
-$$log_{10}b=lgb$$
-
-Натуральный логарифм --- это логарифм по основанию $e.$
-$$log_eb=ln b.$$
-
-\section{Таблица интегралов элементарных функций}
+\subsection{Таблица интегралов элементарных функций}
 
 $$\int 0\cdot dx=C$$
 $$\int 1\cdot dx=x+C$$
@@ -624,6 +607,54 @@ $$
 \frac{1}{2a}ln|\frac{a+x}{a-x}|+C
 $$
 
+\section{Логарифмы}
+\textbf{Определение логарифма.} Логарифмом положительного числа $b$ по основанию $a\ (a>0, a\not=1 )$ называется показатель степени, в которую нужно возвести $a$, чтобы получить $b.$
+
+$$log_ab=c \Leftrightarrow a^c=b$$
+ 
+\textbf{Свойства логарифма}
+
+Основное логарифмическое тождество:
+$$a^{log_ab}=b,  $$
+$$\hbox{ где } a>0; a\not= 1; b>0.$$
+
+$$log_aa=1
+\hskip 1cm
+log_a1=0
+\hskip 1cm
+log_aa^m=m$$
+
+Логарифм произведения
+$$log_c(ab)=log_ca+log_cb, \ a>0, b>0.$$
+$$log_c(ab)=log_c|a|+log_c|b|, \ ab>0.$$
+
+Логарифм частного
+$$log_c(\frac{a}{b})=log_ca-log_cb, \ a>0, b>0$$
+$$log_c(\frac{a}{b})=log_c|a|-log_c|b|, \ ab>0$$
+
+Логарифм степени
+$$log_ca^n=n\cdot log_ca, a>0, c>0, c\not=1.$$
+$$log_ca^n=n\cdot log_c|a|, c>0, c\not=1, n- \hbox{четное }.$$
+$$log_{c^n}a=\frac{1}{n}log_ca, a>0, c>0, c\not=1.$$
+$$log_{c^n}a=\frac{1}{n}log_{|c|}a, a>0, c\not=1.$$
+
+Логарифм корня
+$$log_c \root{n}\of{a}=\frac{1}{n}log_ca, a>0, c>0, c\not=1.$$
+
+Переход к новому основанию
+$$log_ab=\frac{log_cb}{log_ca}, a>0, a\not=1, c>0, c\not=1, b>0$$
+
+Формулы, следующие из свойств логарифмов
+$$log_ab=\frac{1}{log_ba}$$
+$$\frac{log_nb}{log_nc}=\frac{log_mb}{log_mc}=log_cb$$
+$$log_nb\cdot log_mc=log_mb\cdot log_nc$$
+$$a^{log_nb}=b^{log_na}$$
+
+Десятичный логарифм - это логарифм по основанию 10:
+$$log_{10}b=lgb$$
+
+Натуральный логарифм --- это логарифм по основанию $e.$
+$$log_eb=ln b.$$
 
 
 \section{Основные формулы комбинаторики}
@@ -639,7 +670,10 @@ $$C_n^k=\frac{n!}{k!(n-k)!}=\frac{n\cdot (n-1)\cdot (n-2)\cdot \dots \cdot (n-k+
 
 \section{Текстовые задачи}
 \subsection{Задачи на движение}
-$$S=v\cdot t,$$
+\vskip -20pt
+\[
+  S=v\cdot t,
+\]
 где $v$ --- скорость движения, $t$ --- время, $S$ --- расстояние, пройденное за время $t$ со скоростью $v.$
 \subsection{Задачи на работу}
 $$A=N\cdot t,$$
@@ -659,8 +693,10 @@ p_A\%=C_A\cdot 100\%,\  p_B\%=C_B\cdot 100\%,\ p_C\%=C_C\cdot 100\%,
 $$
 где $C_A, C_B, C_C$ --- масса соответствующих веществ.
 
-\section{Таблица умножения}
-{\scriptsize
+\section{Справочные таблицы}
+
+\subsection{Таблица умножения}
+{\small
 \begin{center}
 {
 \setlength{\extrarowheight}{2pt}
@@ -733,9 +769,9 @@ $$
 
 
 
-\section{Таблица квадратов двузначных натуральных чисел}
+\subsection{Таблица квадратов двузначных натуральных чисел}
 
-{\scriptsize
+{\small
 \begin{center}
 {\setlength{\extrarowheight}{3pt}
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|}
@@ -773,7 +809,7 @@ $$
 \end{center}
 }
 
-\section{Таблица кубов натуральных чисел от 1 до 10}
+\subsection{Таблица кубов натуральных чисел от 1 до 10}
 
 \begin{center}
 {\setlength{\extrarowheight}{3pt}
@@ -788,9 +824,9 @@ $a^3$ &1 & 8 & 27 & 64 & 125 & 256 & 343 & 512 & 729 & 1000 \\
 \end{center}
 
 
-\section{Простые числа от 2 до 997}
+\subsection{Простые числа от 2 до 997}
 
-{\scriptsize
+{\small
 \begin{center}
 {\setlength{\extrarowheight}{3pt}
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
@@ -834,9 +870,9 @@ $a^3$ &1 & 8 & 27 & 64 & 125 & 256 & 343 & 512 & 729 & 1000 \\
 \end{center}
 }
 
-\section{Греческий алфавит}
+\subsection{Греческий алфавит}
 
-{\scriptsize
+{\normalsize
 \begin{center}
 {\setlength{\extrarowheight}{3pt}
 \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|}
